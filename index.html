@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=utf-8 />
+    <title>Arches with a view of the Solar Eclipse
+    </title>
+    <meta name='viewport' content='initial-scale=15.20,maximum-scale=1,user-scalable=no' />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,900i" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #ff8989;
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #530000;
+            font-size: 1.1em;
+        }
+        section {
+            width: 80%;
+            margin: 10px auto;
+        }
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 900i;
+            font-size: 2.8em;
+            font-style: italic;
+            letter-spacing: .01em;
+            margin: 0 0 15px 0;
+        }
+
+        h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            color: #151516;
+            font-size: 1.5em;
+            letter-spacing: .06em;
+            font-style: italic;
+            margin: 0 0 25px 0;
+        }
+
+        p {
+            font-size: 1.15em;
+            line-height: 1.8em;
+            margin: 0 0 25px 0;
+        }
+
+        a {
+            color: #15397f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding: 0px 20px 4px 20px;
+            line-height: 1.6em;
+            color: #63666a;
+        }
+
+        li {
+            margin: 10px 0
+        }
+
+        #map {
+            width: 100%;
+            margin: 0px auto;
+
+        }
+
+        .max-image-width {
+            width: 100%;
+        }
+
+        .linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
+        hr {
+            border: 0px;
+            border-bottom: 1px solid #3d3d3d;
+            padding-top: 20px;
+        }
+
+        .first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .svg-title {
+            float: left;
+            display: inline-block;
+            width: 75px;
+            margin: -8px 10px -8px 0;
+        }
+
+        @media screen and (max-width: 800px) {
+
+            .first-column,
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <iframe src="map.html" width="100%" height="440px"></iframe>
+    <section>
+        <a href='map.html' class="linkbox">Full-screen version</a>
+
+        <img src="arches.svg" class="svg-title">
+        <h1>Finding an arch with a view of the April 8, 2024 solar eclipse </h1>
+        <h2>Map by Donovan McGauley</h2>
+        <div class="row">
+            <div class="first-column">
+                <p>
+                </p>
+                <h3>About this project</h3>
+                <ul>
+                    <li>This is a Mapbox style that I created after I used QGIS geoprocessing tools on data from the National File on Geographic Names Information System at https://www.usgs.gov/us-board-on-geographic-names/download-gnis-data and NASA's Scientific Visualization Studio at https://svs.gsfc.nasa.gov/5073. The purpose of this project was to show which United States arches would have a view of the total solar eclipse on April 8th, 2024. For the data I used and addition information about how I created the map, my repository can be found at https://github.com/dtmc227/MAP-671-Final-Project. </li> </li>
+                    <li>Data is shown on Mapbox web map with geolocation services enabled. If the map got popular it would require a fee to use.</li>
+                </ul>
+                <b>Legend</b><br>
+                    <img src="arches.svg"><images/arches.svg>
+                    <li>Arch</li>
+                <br><br>
+                    <img src="eclipsepath.png"><images/eclipsepath.png>
+                    <li>Eclipse path</li>
+
+                <hr>
+               
+                </p>
+
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src=
+                >
+                <div class="linkbox"></div>
+
+            </div>
+        </div>
+
+
+        <hr>
+        <a href="https://uky-gis.github.io">
+            <img src="logo-color-400px.png" alt="University of Kentucky Geography"></a>
+    </section>
+</body>
+</html>
