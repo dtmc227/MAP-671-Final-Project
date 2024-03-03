@@ -20,7 +20,7 @@ Because I only wanted to see the arches in side the path of totality, I knew I n
 
 > ![Alt text](<images/Selecting input.png>)
 
-Then it looked like thsi. 
+Then it looked like this. 
 
 >![Alt text](<images/Arches in path .png>)
 

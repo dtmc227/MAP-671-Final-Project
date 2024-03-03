@@ -16,25 +16,21 @@
 <div id='map'></div>
 
   <script>
-    // Change this to your Access token ----------------------
+
     mapboxgl.accessToken = 'pk.eyJ1IjoiZHRtYzIyNyIsImEiOiJjbHNycWt2NXExaHZlMmptcG5kdnF5Z2N0In0.ln7mkOFiYfRsz0Vybbj0vg';
-    // ------------------------------------------------
+
 
     var map = new mapboxgl.Map({
       container: 'map',
 
-      // Change this to your style --------------------
+ 
       style: 'mapbox://styles/dtmc227/clsz63bzv003w01qf6jd77jnv',
-      // ----------------------------------------------
-
-      // Change to your location, please note this location information is for Gray's Arch, you will need to edit the center coordinates 
+ 
       zoom: 6,
       center: [-86.091,38.325]
-      // ----------------------------------------------
+
 
     });
-
-    // Add geolocate control to the map.
      map.addControl(new mapboxgl.GeolocateControl({
       positionOptions: {
         enableHighAccuracy: true
